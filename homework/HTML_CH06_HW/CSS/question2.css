@@ -1,0 +1,24 @@
+header {
+    background-color: firebrick;
+    height: 10%;
+}
+aside {
+    background-color: gold;
+    float: left;
+    height: 70%;
+    width: 30%;
+}
+main {
+    background-color: goldenrod;
+    float: right;
+    height: 70%;
+    width: 70%;
+}
+footer {
+    background-color: green;
+}
+body {
+    width: 100%;
+    height: 620px;
+    align-content: center;
+}

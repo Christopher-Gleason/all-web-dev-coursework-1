@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    height: 580px;
+}
+header {
+    background-color: slategray;
+    height: 15%;
+}
+footer {
+    background-color: lightgray;
+}
+aside {
+    width: 20%;
+    height: 70%;
+    float: right;
+    background-color: darkviolet;
+}
+main {
+    width: 80%;
+    height: 70%;
+    float: left;
+    background-color: darkorange;
+}

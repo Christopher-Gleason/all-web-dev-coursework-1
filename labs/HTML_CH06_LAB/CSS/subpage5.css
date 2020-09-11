@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 580px;
+}
+header {
+    background-color: slategray;
+    height: 15%;
+    float: left;
+    width: 100%;
+}
+footer {
+    background-color: lightgray;
+    height: 10%;
+    float: right;
+    width: 100%;
+}
+aside {
+    float: right;
+    width: 75%;
+    height: 10%;
+    background-color: thistle;
+}
+#littlemain {
+    float: left;
+    width: 25%;
+    height: 75%;
+    background-color: pink;
+}
+#bigmain {
+    float: right;
+    width: 75%;
+    height: 65%;
+    background-color: violet;
+}
