@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    width: 900px;
+    border-color: steelblue;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:5px 10px 4px black;
+    align-content: center;
+}
+header {
+    text-indent: 5%;
+    background-image: linear-gradient(white, lightsteelblue);
+    border-bottom: steelblue;
+    border-bottom-style: solid;
+}
+h1 {
+    font-size: 210%;
+    color: steelblue;
+    text-shadow: 2px 2px rgba(70, 131, 180, 0.562);
+    font-style: italic;
+}
+h2 {
+    font-size: 160%;
+}
+#bodylinks {
+    font-size: 115%;
+    color: maroon;
+    padding-left: 5px;
+}
+#bodylinks:hover{
+    font-size: 115%;
+    color:steelblue;
+    padding-left: 5px;
+}
+#extralinks {
+    color: steelblue;
+    font-weight: bold;
+    padding-left: 5px;
+}
+#extralinks:hover {
+    color: maroon;
+    padding-left: 5px;
+}
+#home_logo {
+    float: left;
+    size: 150%;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    height: 3em;
+    clear: both;
+}
+aside {
+    float: left;
+    width: 245px;
+    padding-left: 20px;
+}
+main {
+    float: right;
+    width: 65%;
+}
+nav {
+    margin: 0;
+    width: 900px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+nav ul li {
+    float: left;
+    width: 180px;
+    height: 1.4em;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav > ul::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+nav ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    position: relative;
+}
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    float: none;
+    width: 180px;
+}
+nav ul ul li {
+    float: none;
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+

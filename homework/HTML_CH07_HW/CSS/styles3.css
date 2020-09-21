@@ -1,0 +1,38 @@
+#nav_list ul {
+    list-style: none;
+    position: relative;
+}
+#nav_list ul li {float: left;}
+#nav_list ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_list ul ul li {float: none;}
+#nav_list ul li:hover > ul {
+    display: block;
+    position: relative;
+}
+#nav_list > ul ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav_list li {
+    width: 175px;
+    background-color: blue;
+    color: white;
+}
+#nav_list ul li a {
+text-align: center;
+align-content: center;
+display: block;
+width: 175px;
+padding: 1em 0;
+text-decoration: none;
+background-color: blue;
+color: white;
+font-weight: bold;
+border-right: 2px solid white;
+}
+
