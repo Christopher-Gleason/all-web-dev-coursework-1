@@ -1,0 +1,45 @@
+body {
+    width: 1080px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+#navbar ul {
+    list-style: none;
+}
+
+.navButton {
+    display: block;
+    background-color: blue;
+    color: yellow;
+    text-decoration: none;
+    width: 25%;
+    height: 50px;
+}
+.navButton:hover {
+    display: block;
+    background-color: yellow;
+    color: blue;
+    text-decoration: none;
+    width: 25%;
+    height: 50px;
+}
+.navButton a {
+    display: flex;
+    text-decoration: none;
+    color: yellow;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.navButton a:hover {
+    display: flex;
+    text-decoration: none;
+    color: blue;
+    height: 50px;
+    text-align: center;
+}
