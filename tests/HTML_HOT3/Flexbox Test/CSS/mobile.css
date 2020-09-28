@@ -1,0 +1,202 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body and HTML */
+
+body {
+    width: 768px;
+    margin: 0;
+}
+
+/*Header*/
+
+header {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    font-size: smaller;
+}
+
+header img {
+    align-self: flex-start;
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+}
+
+.headerWords {
+    margin-top: -1.3%;
+    padding-left: 2em;
+    height: 100px;
+}
+
+
+.headerWords h1, .headerwords h2{
+    width: 440px;
+    align-items: flex-start;
+}
+
+
+/* Navbar */
+
+#navbar {
+    display: block;
+    flex-direction: column;
+    border: 2px solid #000000;
+    font-size: 22px;
+    height: 150px;
+    width: 125px;
+}
+
+#navbar ul {
+    align-self: flex-end;
+    display: block;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 27px;
+    width: 60%;
+}
+
+#navbar .navButton {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 29px;
+}
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+#subnav {
+    position: absolute;
+    display: none;
+    border-top: none;
+    width: 10%;
+}
+
+.subButton {
+    display: none;
+}
+
+li:hover #subnav {
+    position: relative;
+    align-content: space-around;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #000;
+    border-left: 4px solid #fff;
+    margin-left: 8px;
+    background-color: white;
+    width: 600px;
+    height: 27px;
+}
+
+li:hover #subnav .subButton {
+    display: block;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+
+/* Main */
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    width: 30%;
+}
+
+aside img {
+    height: 67%;
+    padding-top: 5em;
+    padding-right: 5px;
+}
+
+#mainText {
+    width: 35%;
+    height: 100%;
+    padding-top: 3em;
+    padding-left: 3px;
+}
+
+#homeInfo {
+    flex-wrap: wrap;
+    display: block;
+    width: 70%;
+    align-self: flex-end;
+    justify-content: right;
+    height: auto;
+    padding-left: 5em;
+}
+
+#eduInfo {
+    padding-left: 5em;
+    padding-top: 1em;
+    width: 70%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
+}
+
+/*
+#eduInfo h2 {
+
+}
+
+#eduInfo .eduClasses{
+}
+*/
+#eduInfo img {
+    height: 120px;
+    width: 120px;
+}
+/*
+#eduInfo a {
+
+}
+*/
+
+/* Footer */
+
+footer {
+    margin: 0;
+    display: block;
+    background-color: #999;
+    color: #000;
+    width: 74%;
+    height: 9.7em;
+    border: 2px solid #000;
+}
+
+footer .contacts {
+    text-align: center;
+    margin: 0.2em;
+}
+
+footer .contacts:first-child {
+    padding-top: 1.3em;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.4em;
+}
+
