@@ -1,0 +1,12 @@
+body {
+    width: 860px;
+}
+
+.headerText, .bodyCell {
+    border: 1px solid black;
+}
+
+.bodyCell {
+    text-align: center;
+    width: 5%;
+}

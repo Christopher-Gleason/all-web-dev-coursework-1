@@ -1,0 +1,37 @@
+.grid {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 1em;
+    text-align: center;
+}
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.sidebar-left {
+  grid-area: sidebar-1;
+}
+
+article {
+  grid-area: article;
+}
+
+.sidebar-right {
+  grid-area: sidebar-2;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 1em;
+  grid-template-areas: "header header header"
+                       "sidebar-1 article sidebar-2"
+                       "footer footer footer";
+}

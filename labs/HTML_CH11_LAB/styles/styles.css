@@ -1,0 +1,31 @@
+body {
+    height: 650px;
+    width: 650px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 325px 325px;
+    grid-template-rows: 325px 325px;
+}
+
+.image1 {
+    background-color: mediumaquamarine;
+}
+
+.image2 {
+    background-color: red;
+}
+
+.image3 {
+    background-color: pink
+}
+
+.image4 {
+    background-color: lime
+}
+
+.imageStyle {
+    height: 325px;
+    width: 325px;
+}
