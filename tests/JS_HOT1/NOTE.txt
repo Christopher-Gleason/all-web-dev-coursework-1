@@ -1,0 +1,2 @@
+These files are all part of the JavaScript Chapter 1-3 Hands-On Test.
+None of them are part of the pre-test.
