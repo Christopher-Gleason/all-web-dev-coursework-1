@@ -5,7 +5,7 @@ function main()
 
     for(let lcv = START; lcv <= STOP; ++lcv)
     {
-        if (lcv % 2 != 0) {
+        if (lcv % 2 !== 0) {
             alert(lcv)
         }
     }
