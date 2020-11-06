@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function main() {
+
+            let fTemp = 0;
+            let cTemp = 0;
+            let runAgain = true;
+            let response = "";
+
+        while (runAgain) {
+            fTemp = parseInt(prompt("Enter Farenheight"));
+            while (isNaN(fTemp)) {
+                fTemp = parseInt(prompt("Enter a farenheight temperature"));
+            }
+
+            cTemp = ((fTemp - 32) * (5 / 9));
+
+            alert (cTemp);
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="submit" 
+    onclick="main();"
+    value="Run Program" />
+</body>
+</html>
