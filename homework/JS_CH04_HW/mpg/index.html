@@ -18,10 +18,10 @@
             var miles = parseFloat($("miles").value);
             var gallons = parseFloat($("gallons").value);
 
-            if (isNaN(miles) || isNaN(gallons)) {
-                alert("Both entries must be numeric");
-            } else if (miles <= 0 || gallons <= 0) {
-            	alert("Both entries must be greater than zero");
+            if (isNaN(miles) || miles <= 0) {
+                alert("Miles must be numeric and greater than zero");
+            } else if (isNaN(gallons) || gallons <= 0) {
+            	alert("Gallons must be numeric and greater than zero");
             } else {
                 $("mpg").value = calculateMpg(miles, gallons);
             }
@@ -33,6 +33,7 @@
 		};
 		window.onload = function() {
             $("calculate").onclick = processEntries;
+            $("clearAll").onclick  = clearEntries;
             $("miles").focus();
         };
     </script>
@@ -48,6 +49,8 @@
         <input type="text" id="mpg"><br>
         <label>&nbsp;</label>
         <input type="button" id="calculate" value="Calculate MPG"><br>
+        <label>&nbsp;</label>
+        <input type="button" id="clearAll" value="Clear Entries">
     </main>
 </body>
 </html>
