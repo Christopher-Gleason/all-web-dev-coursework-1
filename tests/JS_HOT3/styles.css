@@ -1,0 +1,20 @@
+html {
+    padding: 0.8em;
+}
+
+header {
+    display: block;
+    border: 2px solid #000;
+    background-color: red;
+    width: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    color: #fff;
+}
+
