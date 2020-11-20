@@ -13,11 +13,11 @@ var processEntries = function() {
     var isValid = true;
 
     if (isNaN(miles) || miles <= 0) {
-        alert("Miles must be numeric and greater than zero");
+        $("miles").nextElementSibling.firstChild.nodeValue = "Miles must be numeric and greater than zero";
         isValid = false;
     }
     if (isNaN(gallons) || gallons <= 0) {
-       	alert("Gallons must be numeric and greater than zero");
+        $("miles").nextElementSibling.firstChild.nodeValue = "Gallons must be numeric and greater than zero";
        	isValid = false;
     }
     if (isValid) {
