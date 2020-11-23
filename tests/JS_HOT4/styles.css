@@ -1,0 +1,15 @@
+.gym_logo {
+    width: 50px;
+}
+
+#homeCarousel {
+    width: 100%;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.faqPart {
+    display: none;
+}
