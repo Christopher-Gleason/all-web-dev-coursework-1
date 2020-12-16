@@ -1,10 +1,12 @@
 $(document).ready(function() {
     $("#start_timer").click(
     	function () {
-			var totalTime = $("#time").val();
-			var interval = $("#interval").val();
-			var isValid = true;
-			
+			let totalTime = $("#time").val();
+			let interval = $("#interval").val();
+			let isValid = true;
+			$("#complete span").text("");
+			$("#elapsed").val("");
+
 			// validate the time
 			if (totalTime == "") { 
 				$("#time_error").text("This field is required.");
@@ -52,10 +54,10 @@ $(document).ready(function() {
 							clearInterval(timer);
 							$("#complete span").text("Time is up!");
 						}
+
 					},
 					interval );
-    		}
-    	}
-    );
+				}
+    	});
 	$("#totalTime").focus();
 });

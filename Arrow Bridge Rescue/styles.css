@@ -20,15 +20,16 @@ header {
 }
 
 header h1 {
-    padding-top: 0.8em;
+    padding-top: 0.5em;
     padding-left: 4.2em;
 }
 
 #navbar {
-    display: flexbox;
+    display: flex;
     width: 100%;
-    align-items: center;
     height: 2em;
+    flex-direction: row;
+    align-self: baseline;
 }
 
 .button {
@@ -40,18 +41,6 @@ header h1 {
     border: #000 solid 1px;
     padding: 0;
     margin: 0;
-    align-self: flex-end;
-}
-
-a {
-    display: block;
-    width: auto;
-    height: 2.2em;
-    text-decoration: none;
-    color: #000;
-    font-weight: bolder;
-    text-align: center;
-    text-justify: center;
 }
 
 .button:hover {
@@ -63,6 +52,17 @@ a {
     border: #000 solid 1px;
     padding: 0;
     margin: 0;
+}
+
+.button a {
+    display: block;
+    width: auto;
+    height: 2.2em;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    text-justify: center;
+    align-content: center;
 }
 
 .button a:hover {
